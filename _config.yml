@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Dvlp_Jeongminho
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -24,7 +24,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jeong min ho
-  image             : jmh0106/jmh0106.github.io/50164268.png
+  image             : jmh0106.github.io/50164268.png
   behance           : your_username
 # dribbble          : your_username
   email             : jmhzzang0106@gmail.com
