@@ -99,3 +99,8 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: write
