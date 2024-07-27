@@ -1,3 +1,4 @@
+// 왜 안되요
 const STORAGE_KEY = "theme";
 const THEME_ATTR = "data-theme";
 const QUERY_KEY = "(prefers-color-scheme: dark)";
