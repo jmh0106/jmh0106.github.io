@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jeong min ho
-  image             : https://raw.githubusercontent.com/jmh0106/jmh0106.github.io/main/50164268.png
+  image             : _assets/about/jmhFace.webp
   behance           : your_username
 # dribbble          : your_username
   email             : jmhzzang0106@gmail.com
