@@ -1,8 +1,8 @@
 ### Site Settings ###
 title               : Dvlp_Jeongminho
 description         : >
-                      게임 개발자이자 :technologist: 현역 군인 :military_helmet: 정민호입니다 :)
-                      I'm Jeong Min-ho, a game developer :technologist: and ROKA soldier. :military_helmet: :)
+                      I'm Jeong Min-ho, a game developer :technologist:
+                      and ROKA soldier. :military_helmet: :)
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jmh0106/jmh0106.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU

@@ -1,17 +1,10 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Student, Sunrin high school
+  from: 2019
+  to: 2021
+  description: I learned C, Python, java, object-oriented programming, computer structure, and game engine at Sunlin Internet High School
+               In addition, i worked as the head of the RG (Republic of Game) game game development club, planning various classes and leading the club.     
 
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Student, Inha univ.
+  from: 2022
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: I am working on various projects in the club with my teammate.
