@@ -1,0 +1,25 @@
+
+<div class="card-columns m-3 mt-5">
+    <!-- Local Diarys -->
+    {% for diary in site.diarys %}
+  
+      {%- assign diary_type  = "local" -%}
+      {%- assign diary_id    = diary.name | slugify -%}
+      {%- assign diary_img   = diary.image -%}
+      {%- assign diary_name  = diary.name -%}
+      {%- assign diary_desc  = diary.description -%}
+      {%- assign diary_tools = diary.tools -%}
+  
+      {%- if diary.external_url -%}
+        {%- assign diary_url = diary.external_url -%}
+        {%- assign external    = true -%}
+      {%- else -%}
+        {%- assign diary_url = diary.url | relative_url -%}
+        {%- assign external    = false -%}
+      {%- endif -%}
+  
+      {% include diarys/diary-card.html %}
+  
+    {% endfor %}
+  
+  </div>
