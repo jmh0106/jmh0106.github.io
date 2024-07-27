@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Local Site Directories
 _site/
 .sass-cache/
@@ -9,4 +10,17 @@ _site/
 Gemfile.lock
 
 # Log Files
+=======
+# Local Site Directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby Gems
+.bundle
+Gemfile.lock
+
+# Log Files
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 *.log

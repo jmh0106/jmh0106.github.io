@@ -1,5 +1,6 @@
 ### Site Settings ###
 <<<<<<< HEAD
+<<<<<<< HEAD
 title               : portfolYOU
 description         : >-
                       I turn coffee :coffee: into code,
@@ -8,12 +9,17 @@ description         : >-
 baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 =======
+=======
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 title               : Dvlp_Jeongminho
 description         : >-
                       게임 개발자이자 :technologist: 현역 군인 :military_helmet: 정민호입니다 :)
                       I'm Jeong Min-ho, a game developer :technologist: and ROKA soldier. :military_helmet: :)
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jmh0106/jmh0106.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+<<<<<<< HEAD
+>>>>>>> parent of 2642a08 (ㅁㅁ)
+=======
 >>>>>>> parent of 2642a08 (ㅁㅁ)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
@@ -30,6 +36,7 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
 <<<<<<< HEAD
+<<<<<<< HEAD
   - documentation/partials/**                           # For Documentation Only
 
 
@@ -45,6 +52,8 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 =======
+=======
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 
 ### Author Info ###
 author:
@@ -57,6 +66,9 @@ author:
   github            : jmh0106
 # gitlab            : your_username
   instagram         : dvlp_minho
+<<<<<<< HEAD
+>>>>>>> parent of 2642a08 (ㅁㅁ)
+=======
 >>>>>>> parent of 2642a08 (ㅁㅁ)
 # kaggle            : your_username
   linkedin          : your_username
@@ -82,8 +94,11 @@ collections:
     output: true
     permalink: /projects/:name
 <<<<<<< HEAD
+<<<<<<< HEAD
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
+=======
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 =======
 >>>>>>> parent of 2642a08 (ㅁㅁ)
 
@@ -118,11 +133,14 @@ defaults:
     values:
       layout: "page"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - scope:                                              # For Documentation Only
       path: ""                                          # For Documentation Only
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
       layout: "element"                                 # For Documentation Only
+=======
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 =======
 >>>>>>> parent of 2642a08 (ㅁㅁ)
   - scope:
@@ -138,7 +156,11 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "*.log"
+=======
+  - "*.log"
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 =======
   - "*.log"
 >>>>>>> parent of 2642a08 (ㅁㅁ)

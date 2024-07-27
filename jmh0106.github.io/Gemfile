@@ -1,11 +1,17 @@
 source "https://rubygems.org"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem "github-pages", group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 =======
+=======
+>>>>>>> parent of 2642a08 (ㅁㅁ)
 gem 'faraday', '~> 2.7', '>= 2.7.11'
 gem "github-pages", group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "webrick", "~> 1.8"
+<<<<<<< HEAD
+>>>>>>> parent of 2642a08 (ㅁㅁ)
+=======
 >>>>>>> parent of 2642a08 (ㅁㅁ)
