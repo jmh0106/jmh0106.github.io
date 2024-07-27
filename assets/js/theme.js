@@ -23,9 +23,11 @@ function initTheme() {
   } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
     // system theme
     setTheme(themes.DARK);
+    updateImage(theme.DARK)
   } else {
     // Default theme
     setTheme(themes.LIGHT);
+    updateImage(theme.LIGHT)
   }
 
   // Watch for system theme changes
