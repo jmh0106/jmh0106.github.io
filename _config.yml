@@ -1,9 +1,6 @@
 ### Site Settings ###
 title               : Dvlp_Jeongminho
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+description         : >
                       게임 개발자이자 :technologist: 현역 군인 :military_helmet: 정민호입니다 :)
                       I'm Jeong Min-ho, a game developer :technologist: and ROKA soldier. :military_helmet: :)
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
