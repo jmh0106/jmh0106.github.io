@@ -20,7 +20,7 @@ function initTheme() {
   if (savedTheme) {
     // Storage theme
     setTheme(savedTheme);
-    updateImage(savedTheme)
+    updateImage(getTheme() === 'dark' ? theme.DARK : theme.LIGHT )
   } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
     // system theme
     setTheme(themes.DARK);
