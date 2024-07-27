@@ -1,26 +1,13 @@
 ### Site Settings ###
-<<<<<<< HEAD
-<<<<<<< HEAD
-title               : portfolYOU
+title               : Dvlp_Jeongminho
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-=======
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
-title               : Dvlp_Jeongminho
-description         : >-
                       게임 개발자이자 :technologist: 현역 군인 :military_helmet: 정민호입니다 :)
                       I'm Jeong Min-ho, a game developer :technologist: and ROKA soldier. :military_helmet: :)
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jmh0106/jmh0106.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-<<<<<<< HEAD
->>>>>>> parent of 2642a08 (ㅁㅁ)
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -35,25 +22,6 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - documentation/partials/**                           # For Documentation Only
-
-
-### Author Info ###
-author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-=======
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
 
 ### Author Info ###
 author:
@@ -66,10 +34,6 @@ author:
   github            : jmh0106
 # gitlab            : your_username
   instagram         : dvlp_minho
-<<<<<<< HEAD
->>>>>>> parent of 2642a08 (ㅁㅁ)
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
 # kaggle            : your_username
   linkedin          : your_username
   medium            : your_username
@@ -93,14 +57,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-<<<<<<< HEAD
-<<<<<<< HEAD
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
 
 
 ### Disqus ###
@@ -132,17 +88,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
-=======
->>>>>>> parent of 2642a08 (ㅁㅁ)
   - scope:
       path: ""
       type: "posts"
@@ -155,12 +100,4 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE
-<<<<<<< HEAD
-<<<<<<< HEAD
   - "*.log"
-=======
-  - "*.log"
->>>>>>> parent of 2642a08 (ㅁㅁ)
-=======
-  - "*.log"
->>>>>>> parent of 2642a08 (ㅁㅁ)
