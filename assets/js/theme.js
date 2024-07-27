@@ -9,8 +9,8 @@ const themes = {
 };
 
 const imagePaths = {
-  light: "assets/images/jmhFaceRemoveBg.png",
-  dark: "assets/images/jmhFaceRemoveBgDarkMd.png",
+  light: "assets/jmhFaceRemoveBg.png",
+  dark: "assets/jmhFaceRemoveBgDarkMd.png",
 };
 
 initTheme();
