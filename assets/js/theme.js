@@ -20,15 +20,12 @@ function initTheme() {
   if (savedTheme) {
     // Storage theme
     setTheme(savedTheme);
-    updateImage(getTheme() === 'dark' ? theme.DARK : theme.LIGHT )
   } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
     // system theme
     setTheme(themes.DARK);
-    updateImage(theme.DARK)
   } else {
     // Default theme
     setTheme(themes.LIGHT);
-    updateImage(theme.LIGHT)
   }
 
   // Watch for system theme changes
@@ -60,5 +57,14 @@ function updateImage(theme) {
   if (imageElement) {
     const imagePath = theme === themes.DARK ? imagePaths.dark : imagePaths.light;
     imageElement.src = imagePath;
+  }
+}
+
+window.onload=function(){
+  if (getTheme() == 'dark') {
+    updateImage(themes.DARK)
+  } 
+  else {
+    updateImage(themes.LIGHT)
   }
 }
