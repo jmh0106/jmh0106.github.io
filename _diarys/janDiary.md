@@ -37,6 +37,7 @@ description: 민호의 1월 일기
 ![IMG_4920](https://github.com/user-attachments/assets/c98717ae-0b56-40f5-a69c-95a623276355)
 그리고 오랜만에 오모씨랑 연모씨랑 만났습니다. 서형이가 일본 갔다와서 도쿄 바나나랑 연하장을 줬습니다. 피캬츄가 너무 귀엽고 연하장도 이쁘더라구요. 😉
 
+{% assign base_num = 1 %}
 {% capture carousel_images %}
 https://github.com/user-attachments/assets/c925cbda-9541-494b-a74d-56e6e86829a1
 https://github.com/user-attachments/assets/37e602d0-8266-49e5-96db-ef0cc03110ca
@@ -47,6 +48,7 @@ https://github.com/user-attachments/assets/37e602d0-8266-49e5-96db-ef0cc03110ca
 
 
 ---
+{% assign base_num = 2 %}
 {% capture carousel_images %}
 https://github.com/user-attachments/assets/d20fc651-02ba-40c4-b317-fc7f3c517a3b
 https://github.com/user-attachments/assets/29dd10e8-a9a5-46a7-93b1-0681ac0f1ca4
@@ -58,7 +60,7 @@ https://github.com/user-attachments/assets/170432b9-2277-45b5-a892-c87a6a7991fc
 1월 6일 내 생일! 🎂 🥳 육회도 먹고 연어도 먹고 맛있는건 다 먹었습니다. 그리고 생일인걸 아는지 눈이 엄청 오더라구요 근데 좀 적당히 와야하는데 너무 많이 왔습니다 ㅎㅎ… ❄️ 그래도 하얀 눈 보니까 기분이 좋더라구요. 집에 와서는 케이크 간단하게 불고 맛있는거 먹었습니다!
 
 ---
-
+{% assign base_num = 3 %}
 {% capture carousel_images %}
 https://github.com/user-attachments/assets/cced15ab-823e-4160-8c8d-b716c2b9a5a9
 https://github.com/user-attachments/assets/590caff6-c37c-4312-8aa2-407da826a56e
@@ -71,6 +73,7 @@ https://github.com/user-attachments/assets/81b4b2a8-db15-4379-90cb-1b1e6ff22b06
 ![IMG_4462](https://github.com/user-attachments/assets/59ea655b-4375-4d1d-8ad1-41de3caf3ebd)
 그리고 맛있게 먹었던 곱창 전골! 2만원 조금 넘었던거 같은데 양이 말도 안되게 많아서 놀랐습니다. 진짜 JMT
 
+{% assign base_num = 4 %}
 {% capture carousel_images %}
 https://github.com/user-attachments/assets/94a4d713-bb83-407d-83d8-473a5a21d288
 https://github.com/user-attachments/assets/966d661b-7863-4418-8e3d-96c31bc3f850
@@ -80,6 +83,7 @@ https://github.com/user-attachments/assets/68e98418-9013-4a9f-9bc4-1981b4a3a6d6
 
 그리고 독립기념관 갔다가 맛있게 먹은 파스타랑 고기! 생일 가까우면 주신다고 했던 샐러드도 먹었는데 진짜 맛있었습니다. 천안 가면 꼭 드셔보시길…
 
+{% assign base_num = 5 %}
 {% capture carousel_images %}
 https://github.com/user-attachments/assets/620125da-0626-44f5-8716-2feb8f50fe58
 https://github.com/user-attachments/assets/75a40335-2231-4c43-b676-0c024a208cee
