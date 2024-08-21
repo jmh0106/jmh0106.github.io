@@ -2,6 +2,11 @@
 layout: default
 ---
 
+{%- if page.title == "About" -%}
+<div class="col-lg-10 mx-auto mt-5 markdown-body">
+  {{ content }}
+</div>
+{%- else -%}
 <div class="col-lg-10 mx-auto mt-5 markdown-body post-article">
   <div class="toc">
     <a href="#">&lt;맨 위로&gt;</a>
@@ -9,7 +14,7 @@ layout: default
   </div>
   {{ content }}
 </div>
-
+{%- endif -%}
 <script>
 
 
