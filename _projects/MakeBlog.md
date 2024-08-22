@@ -124,8 +124,8 @@ weight: 3
 마지막으로, **_includes/diarys/index.html**과  **_includes/diarys/diary-card.html**를 만들었다. project 탭에 있는 파일들을 완전히 복사하고 변수명만 바꿔서 붙어넣었다.
 
 {% include elements/figure.html image="https://github.com/user-attachments/assets/8b57d9df-c29f-49bf-9396-107a7192581c" caption="완성된 귀여운 Diarys 탭" %}
- 
- # 메인 화면 이미지 수정하기
+
+# 메인 화면 이미지 수정하기
  ---
  ![image](https://github.com/user-attachments/assets/b619f5ce-5d9b-4aaa-92eb-c3bbd0080178)
 
