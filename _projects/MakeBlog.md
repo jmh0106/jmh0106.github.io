@@ -107,17 +107,7 @@ defaults:
 
 그리고 그 밑에 있는 뭔지 모를 것에서도 diary를 추가하고 layout를 page로 설정했다.
 
-```html
-# Diary.html
----
-layout: default
-title: Diarys
-permalink: /diarys/
-weight: 3
----
-
-// {% include diarys/index.html %}
-```
+{% gist 026b431ecd878938ca4ecdd619150f31.js %}
 
 그리고 pages에서 Diary.html을 추가했다.
 
@@ -126,8 +116,8 @@ weight: 3
 {% include elements/figure.html image="https://github.com/user-attachments/assets/8b57d9df-c29f-49bf-9396-107a7192581c" caption="완성된 귀여운 Diarys 탭" %}
 
 # 메인 화면 이미지 수정하기
- ---
- ![image](https://github.com/user-attachments/assets/b619f5ce-5d9b-4aaa-92eb-c3bbd0080178)
+---
+![image](https://github.com/user-attachments/assets/b619f5ce-5d9b-4aaa-92eb-c3bbd0080178)
 
 본 테마는 메인 화면에 프로필 사진을 올릴 수 있는데, 나는 친구가 그려준 내 프로필을 사용하고 싶어서 내 사진을 적용했다. 
 
