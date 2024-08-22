@@ -107,7 +107,7 @@ defaults:
 
 그리고 그 밑에 있는 뭔지 모를 것에서도 diary를 추가하고 layout를 page로 설정했다.
 
-{% gist 026b431ecd878938ca4ecdd619150f31.js %}
+{% gist 026b431ecd878938ca4ecdd619150f31 %}
 
 그리고 pages에서 Diary.html을 추가했다.
 
