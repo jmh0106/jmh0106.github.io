@@ -116,7 +116,7 @@ permalink: /diarys/
 weight: 3
 ---
 
-{% include diarys/index.html %}
+// {% include diarys/index.html %}
 ```
 
 그리고 pages에서 Diary.html을 추가했다.
