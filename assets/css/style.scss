@@ -24,7 +24,7 @@ h3 {
 
 .post-article {
   word-break: break-word;
-  padding-right: 1.5rem;
+  padding-right: 2rem;
 
   @media (max-width: 991.98px) {
     padding-right: 0;
@@ -33,6 +33,7 @@ h3 {
 
 .toc-column {
   position: relative;
+  padding-left: 0.5rem;
 }
 
 .toc-sidebar {
@@ -40,7 +41,7 @@ h3 {
   position: sticky;
   top: 90px;
   width: 100%;
-  max-width: 260px;
+  max-width: 240px;
   z-index: 20;
 }
 
