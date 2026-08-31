@@ -7,27 +7,25 @@ layout: default
   {{ content }}
 </div>
 {%- else -%}
-<div class="row justify-content-center mt-5 post-container">
-  <div class="col-12 col-lg-8 col-xl-8 markdown-body post-article">
+<div class="post-layout-wrapper mt-5">
+  <article class="markdown-body post-article">
     {{ content }}
-  </div>
-  <div class="d-none d-lg-block col-lg-4 col-xl-3 toc-column">
-    <aside id="toc-sidebar" class="toc-sidebar sticky-top" aria-label="Table of contents">
-      <div class="toc-wrapper">
-        <div class="toc-header">
-          <span class="toc-header-title">
-            <i class="fas fa-list-ul mr-1"></i> 목차
-          </span>
-          <a href="#" class="toc-top-btn" title="맨 위로">
-            <i class="fas fa-arrow-up"></i>
-          </a>
-        </div>
-        <nav class="toc-content">
-          {% include toc.html html=content class="toc-list" id="toc-list" h_min=1 h_max=3 %}
-        </nav>
+  </article>
+  <aside id="toc-sidebar" class="toc-sidebar d-none d-lg-block" aria-label="Table of contents">
+    <div class="toc-wrapper">
+      <div class="toc-header">
+        <span class="toc-header-title">
+          <i class="fas fa-list-ul mr-1"></i> 목차
+        </span>
+        <a href="#" class="toc-top-btn" title="맨 위로">
+          <i class="fas fa-arrow-up"></i>
+        </a>
       </div>
-    </aside>
-  </div>
+      <nav class="toc-content">
+        {% include toc.html html=content class="toc-list" id="toc-list" h_min=1 h_max=3 %}
+      </nav>
+    </div>
+  </aside>
 </div>
 {%- endif -%}
 
@@ -36,16 +34,15 @@ document.addEventListener("DOMContentLoaded", function () {
   var tocSidebar = document.getElementById("toc-sidebar");
   if (!tocSidebar) return;
 
-  var tocColumn = document.querySelector(".toc-column");
   var postArticle = document.querySelector(".post-article");
   var tocList = document.getElementById("toc-list");
   var tocLinks = tocList ? Array.from(tocList.querySelectorAll("a")) : [];
 
   // Hide TOC and expand article if no links exist
   if (tocLinks.length === 0) {
-    if (tocColumn) tocColumn.style.display = "none";
+    tocSidebar.style.display = "none";
     if (postArticle) {
-      postArticle.className = "col-lg-10 mx-auto markdown-body post-article";
+      postArticle.style.maxWidth = "880px";
     }
     return;
   }
